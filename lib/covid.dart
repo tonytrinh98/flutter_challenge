@@ -99,7 +99,6 @@ class Covid {
 }
 
 Future<Covid> fetchCoronaVirus() async {
-  print('what');
   String link = 'https://corona.lmao.ninja/v3/covid-19/all';
   var response = await http.get(link);
   if (response.statusCode == 200) {

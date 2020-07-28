@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # globalcorona
 
 A new Flutter application.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# flutter_challenge
+>>>>>>> f87dd10978dd216232e2edee3fc90e28cf27fca2

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:globalcorona/corona_global.dart';
 import 'package:globalcorona/covid.dart';
 void main() {
-  print('bruh');
   runApp(MyApp());
 }
 
