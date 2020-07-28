@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:globalcorona/corona_global.dart';
+import 'package:globalcorona/countries.dart';
 import 'package:globalcorona/covid.dart';
 void main() {
   runApp(MyApp());
@@ -29,11 +30,12 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     Future<Covid> coronaStats = fetchCoronaVirus();
+    Future<Country> coronaCountryStats = fetchCountryCorona();
     return Scaffold(
-      backgroundColor: Color(0xFF1B1536), //1037CB
+      backgroundColor: Color(0xFF1037CB), //1037CB
       appBar:
           AppBar(centerTitle: true, title: Image.asset("assets/worlds.png")),
-      body: CoronaVirus(coronaStats),
+      body: CoronaVirus(coronaStats, coronaCountryStats),
     );
   }
 }
