@@ -28,7 +28,7 @@ Widget CoronaVirus(Future<Covid> stats) {
                               fontSize: 30.0)),
                       Row(
                         children: <Widget>[
-                          Text('Cases:'),
+                          Text('Cases: '),
                           Container(
                             child: Container(color: Colors.orange, height: 20.0, width: 95.0,),
                             decoration: BoxDecoration(
